@@ -74,6 +74,10 @@ li:first-child .answer {
   visibility: hidden;
 }
 
+.answer.open {
+  visibility: visible;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
