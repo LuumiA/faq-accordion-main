@@ -65,11 +65,6 @@ button {
   color: var(--purple-950);
 }
 
-li:first-child .answer {
-  color: var(--purple-600);
-  visibility: visible;
-}
-
 .answer {
   visibility: hidden;
 }
