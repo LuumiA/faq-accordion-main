@@ -1,7 +1,6 @@
 // @ts-nocheck
 const button = document.querySelectorAll(".question");
 const items = document.querySelectorAll(".itemFaq");
-const icon = document.querySelectorAll(".icon");
 
 button.forEach((btn) => {
   btn.addEventListener("click", () => {
