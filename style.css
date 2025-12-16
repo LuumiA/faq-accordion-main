@@ -18,6 +18,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 5%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -79,11 +80,22 @@ body {
 }
 
 .question {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  padding: 0;
+  border: none;
+  background: transparent;
   cursor: pointer;
+  text-align: left;
+}
+
+.question:focus-visible {
+  outline: 2px solid #b324f7;
+  outline-offset: 4px;
+  border-radius: 0.4rem;
 }
 
 .titleQuestion {
