@@ -144,3 +144,11 @@ body {
   width: 32px;
   height: 32px;
 }
+
+.answer {
+  display: none;
+}
+
+.itemFaq.isOpen .answer {
+  display: block;
+}
